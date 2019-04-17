@@ -1,0 +1,174 @@
+img {
+    width: 545px;
+    height: 300px;
+}
+
+.sliderr-item img {
+    width: 545px;
+    height: 200px;
+}
+
+#hero,
+#head {
+    margin: 0 auto;
+    border: 15px solid rgb(224, 223, 223);
+    display: block;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 0.1px 1px red;
+}
+
+#hero {
+    width: 545px;
+    height: 300px;
+}
+
+#head {
+    width: 545px;
+    height: 300px;
+}
+
+#slider {
+    width: 575px;
+    height: 300px;
+    display: block;
+    position: absolute;
+}
+
+#sliderr {
+    width: 545px;
+    height: 300px;
+    display: block;
+    position: absolute;
+}
+
+#news {
+    height: 270px;
+    width: 190px;
+    display: block;
+    position: absolute;
+}
+
+.caption {
+    width: 100%;
+    height: 20px;
+    background: rgba(0, 0, 0, 0.3);
+    display: block;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    text-align: center;
+    bottom: -20px;
+    right: 0;
+}
+
+.latest {
+    color: rgb(221, 101, 147);
+    background-color: rgb(255, 255, 255);
+}
+
+.captionn {
+    width: 100%;
+    height: 100px;
+    background: rgba(250, 250, 250, 0.8);
+    display: block;
+    margin-top: -20px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+#pager {
+    width: 100%;
+    text-align: center;
+    display: block;
+    position: absolute;
+    top: 303px;
+    z-index: 100;
+}
+
+#pager a {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    position: relative;
+    border-radius: 20px;
+    background-color: #333;
+    border: 1px solid #333;
+    margin: 0 10px;
+    font-size: 0.0em;
+    color: transparent;
+}
+
+#pager a.activeSlide {
+    background: white;
+}
+
+#next {
+    background: url(right.png) no-repeat center center;
+    display: block;
+    float: right;
+    position: relative;
+    margin-top: 80px;
+    height: 30px;
+    width: 30px;
+    z-index: 100;
+    cursor: pointer;
+}
+
+#prev {
+    background: url(left.png) no-repeat center center;
+    display: block;
+    float: left;
+    position: relative;
+    margin-top: 80px;
+    height: 30px;
+    width: 30px;
+    z-index: 100;
+    cursor: pointer;
+}
+
+.div1 {
+    border: 0px solid white;
+    background-color: #e0e0e0;
+    border-radius: 20px;
+    width: 400px;
+    height: 300px;
+    margin: 0px auto;
+    box-shadow: 0 8px 16px 0px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+form {
+    border: 0px solid #f1f1f1;
+}
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.onclick {
+    background-color: green;
+    color: white;
+}
+
+input[type=submit]:hover {
+    opacity: 0.8;
+}
+
+.container {
+    padding: 16px;
+}

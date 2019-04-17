@@ -1,0 +1,441 @@
+<html>
+
+<head>
+    <title>Indian Institute of Information Technology Kota</title>
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="refresh" content="30"> -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="keywords" content="HTML, CSS, XML, JavaScript">
+    <link type="text/css" rel="stylesheet" href="index.css">
+    <link type="text/css" rel="stylesheet" href="slideshow.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="https://malsup.github.io/jquery.cycle.all.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+
+            $('#news').cycle({ //Slider for latest news scrolling
+                fx: 'scrollUp', //For  scrolling upward  
+                //speed: 1000,
+                timeout: 10000
+            });
+            $('#news').hover(function() { //Use for stop animation
+                $(this).cycle('pause'); //Pauses the cycle on hover
+            }, function() {
+                $(this).cycle('resume'); // Resumes the cycle when mouse is outside div
+            });
+        });
+    </script>
+
+    <style>
+        .button {
+            border: 0.1px solid white;
+            border-width: normal;
+            color: white;
+            text-align: center;
+            padding: 14px 15px;
+            margin: 0px;
+            display: inline-block;
+            text-decoration: none;
+            font-size: 10px;
+            background-color: #AB76C3;
+        }
+        
+        .button:hover {
+            background-color: #696969;
+            color: white;
+        }
+        
+        .button1 {
+            border: 0.1px solid white;
+            border-width: normal;
+            color: white;
+            text-align: center;
+            padding: 14px 15px;
+            margin: 0px;
+            display: inline-block;
+            text-decoration: none;
+            font-size: 8px;
+            background-color: #696969;
+        }
+        
+        .button1:hover {
+            background-color: #696969;
+            color: white;
+        }
+        
+        .div1 {
+            border: 0px solid white;
+            background-color: white;
+            border-radius: 20px;
+            box-shadow: 0 8px 4px 0px rgba(0, 0, 0, 0.2), 0 6px 4px 0 rgba(0, 0, 0, 0.19);
+        }
+    </style>
+
+</head>
+
+<body>
+    <div style=" display: table;position:absolute;top:0;right:0;left:0;width:100%;min-width: 975px;">
+        <div style="display:table-row;background-image:url(college.jpg);width: 100%;height:150px;margin-left: auto; margin-right: auto;">
+            <div align="center" style="display:table-cell;vertical-align:middle;">
+                <div style="width: 100%;height:150px;margin-left: auto; margin-right: auto;">
+                    <div align="center" style="background-color:rgb(192,192,192);width: 100%;height:25px;">
+                        <div align="center" style="background-color:rgb(192,192,192); width:975px; margin:0 auto;height:25px;">
+                            <div class="menubar">
+                                <u style="list-style-type: none;font-size: 0;margin:0 auto;">
+                                <li class="menumain"><a href="calendar.html">Academic Calendar</a></li>
+                                <li class="menumain"><a href="tender.html">Active Tenders</a></li>
+                                <li class="menumain"><a href="curriculum">Curriculum Info</a></li>
+                                <li class="menumain"><a href="holidays.html">Holidays</a></li>
+                                <li class="menumain"><a href="links.html">Useful Links</a></li>
+                                <li class="menumain"><a href="http://mnit.ac.in/">Mentor Institute</a></li>
+                                <li class="menumain"><a href="vacancys.html">Vacancys</a></li>
+                                <li class="menumain"><a href="rti.html">RTI</a></li>
+                            </u>
+                            </div>
+                        </div>
+                    </div>
+                    <div align="center" style="background-color: rgba(67, 102, 131, 0.7);width: 100%;height:98px;">
+                        <div align="center" style=" width:975px; margin:0 auto;height:98px;">
+                            <div align="center" style="background-color:rgba(209, 188, 188, 0.7); width:105px; margin:0 auto;height:98px;float:left;"><img style="width:105px;height: 98px;" src="logo.jpg"></div>
+                            <div align="center" style=" width:865px; margin:0 auto;height:98px;float: right;">
+                                <h1 style="margin-top:0px;padding:25px;text-align: left;">Indian Institute of Information Technology kota</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div align="center" style="background-color:rgb(192,192,192);width: 100%;height:27px;">
+                        <div align="center" style="background-color:rgb(192,192,192); width:975px; margin:0 auto;height:27px;">
+                            <div class="menubar">
+                                <u style="list-style-type: none;font-size: 0;margin:0 auto;">
+                                <li class="menuicon">
+                                    <a href="index.html">Home</a>
+                                </li>
+                                <li class="menuicon">
+                                    <a href="https://jeemain.nic.in">Admission</a>
+                                </li>
+                                <li class="menuicon">
+                                    <a href="student.php">Students Portal</a>
+                                </li>
+                                <li class="menuicon">
+                                    <a href="facilities.html">Facilities</a>
+                                     <ul>
+                                       <li><a href="sdl.html">Software Development Labs</a></li>
+                                       <li><a href="cc.html">Computer Center</a></li>
+                                       <li><a href="auditorium.html">Auditorium</a></li>
+                                       <li><a href="sports.html">Sports Complex</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menuicon"><a href="department.html">Departments</a>
+                                     <ul>
+                                       <li><a href="index.html">Computer Science and Engineering</a></li>
+                                       <li><a href="index.html">Electronics Engineering</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menuicon"><a href="placement.html">Placements</a>
+                                     <ul>
+                                       <li><a href="index.html">Statistics </a></li>
+                                       <li><a href="index.html">Team</a></li>
+                                       <li><a href="index.html">Procedure</a></li>
+                                       <li><a href="index.html">Recruiters</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menuicon"><a href="http://mnit.ac.in/prospective_student/campus_life.php">Campus Life</a></li>
+                                <li class="menuicon"><a href="contact.html">Contact Us</a></li>
+                            </u>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div align=" center " style=" width:975px; margin:0 auto;height:25px;">
+            <marquee direction="left" behavior="alternate" onmouseover="stop()" onmouseout="start()">
+                <span style="color:rgb(221, 101, 147);">Your welcome to IIIT kota web prototype<span style="color:red;"> New</span></span>
+            </marquee>
+        </div>
+        <div style="display:table-row;">
+            <div align="center" style="display:table-cell;vertical-align:middle;">
+                <div style="width: 975px;margin-left: auto; margin-right: auto;">
+                    <div align="left" style="width:200px;float:left;">
+                        <div style="margin-left:10px;margin-right:10px;margin-top:-17px;">
+                            <div>
+                                <h2>About IIIT Kota</h2>
+                                <div>
+                                    <ul class="leftbar">
+                                        <p>
+                                            <a href="text1.html" style="text-decoration: none">
+                                                <li>Vision and misson</li>
+                                            </a>
+                                        </p>
+                                        <p>
+                                            <a href="text2.html" style="text-decoration: none">
+                                                <li>People</li>
+                                            </a>
+                                        </p>
+                                        <p>
+                                            <a href="text3.html" style="text-decoration: none">
+                                                <li>Departments</li>
+                                            </a>
+                                        </p>
+                                        <p>
+                                            <a href="text4.html" style="text-decoration: none">
+                                                <li>Infrastructure</li>
+                                            </a>
+                                        </p>
+                                    </ul>
+                                </div>
+
+                            </div>
+                            <div class=" block ">
+                                <h2>Projects</h2>
+                                <div>
+                                    <ul class="leftbar">
+                                        <p>
+                                            <a href="content1.html" style="text-decoration: none">
+                                                <li>1st year</li>
+                                            </a>
+                                        </p>
+                                        <p>
+                                            <a href="content2.html" style="text-decoration: none">
+                                                <li>2nd year</li>
+                                            </a>
+                                        </p>
+                                        <p>
+                                            <a href="content3.html" style="text-decoration: none">
+                                                <li>3rd year</li>
+                                            </a>
+                                        </p>
+                                        <p>
+                                            <a href="content4.html" style="text-decoration: none">
+                                                <li>4th year</li>
+                                            </a>
+                                        </p>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class=" block ">
+                                <h2>Photos</h2>
+                                <div>
+                                    <ul class="leftbar">
+
+                                        <p>
+                                            <a href="para2.html" style="text-decoration: none">
+                                                <li>Events</li>
+                                                <p>
+                                                    <a href="para3.html" style="text-decoration: none">
+                                                        <li>Clubs</li>
+                                                        <p>
+                                                            <a href="para4.html" style="text-decoration: none">
+                                                                <li>Campus</li>
+                                                                <p>
+                                                                    <a href="para5.html" style="text-decoration: none">
+                                                                        <li>Workshops/Seminors </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class=" block ">
+                                <h2>Clubs</h2>
+                                <div>
+                                    <ul class="leftbar">
+                                        <li>Technical</li>
+                                        <li>Cultural </li>
+                                        <li>Literary and Dramatics</li>
+                                        <li>Arts and Photography</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class=" block ">
+                                <h2>Awards</h2>
+                                <div>
+                                    <ul class="leftbar">
+
+                                        <li>Faculty</li>
+                                        <p>
+                                            <a href="club.html" style="text-decoration: none">
+                                                <li>Club</li>
+                                            </a>
+                                        </p>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class=" block ">
+                                <h2>Academics</h2>
+                                <div>
+                                    <ul class="leftbar">
+                                        <p>
+                                            <a href="calender.html" style="text-decoration: none">
+                                                <li>Calendar</li>
+                                            </a>
+                                        </p>
+                                        <p>
+                                            <a href="library.html" style="text-decoration: none">
+                                                <li>Library</li>
+                                            </a>
+                                        </p>
+                                        <p>
+                                            <a href="scholarship.html" style="text-decoration: none">
+                                                <li>Scholarship</li>
+                                            </a>
+                                        </p>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div align="center " style="width:575px;float:left;">
+                        <div align="center " class="div1" style="width:575px;float:left;border-radius:5px;">
+                            </br>
+                            <a href="logout.php" style="text-decoration:none; color:white" class="button1"> LOGOut</a>
+
+                            <img src="login.png" alt="Student image" style="height:250px;" />
+                            <center>
+                                <table width=50% align="left">
+                                    <tr>
+
+                                        <td align="left">
+                                            <font style="color:black;size:2;">
+                                                <strong>NAME:-</strong></font>
+                                        </td>
+                                        <td>
+                                            <font style="color:black;size:2;">
+                                                <strong>HARIOM PARMAR</strong></font>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left">
+                                            <font style="color:black;size:2;">
+                                                <strong>ID:-</strong></font>
+                                        </td>
+                                        <td>
+                                            <font style="color:black;size:2;">
+                                                <strong>2017KUCP1060</strong></font>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left">
+                                            <font style="color:black;size:2;">
+                                                <strong>BRANCH:-</strong></font>
+                                        </td>
+                                        <td>
+                                            <font style="color:black;size:2;">
+                                                <strong>COMPUTER SCIENCE AND ENGINEERING</strong></font>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left" style="width:10px;">
+                                            <font style="color:black;size:2;">
+                                                <strong>SEMESTER:-</strong></font>
+                                        </td>
+                                        <td>
+                                            <font style="color:black;size:2;">
+                                                <strong>2nd</strong></font>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left">
+                                            <font style="color:black;size:2;">
+                                                <strong>DOB:-</strong></font>
+                                        </td>
+                                        <td>
+                                            <font style="color:black;size:2;">
+                                                <strong>12/05/1999</strong></font>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left">
+                                            <font style="color:black;size:2;">
+                                                <strong>POSITION:-</strong></font>
+                                        </td>
+                                        <td>
+                                            <font style="color:black;size:2;">
+                                                <strong>_ _ _ _ _</strong></font>
+                                        </td>
+                                    </tr>
+
+
+
+
+                                </table>
+                            </center>
+                            </br>
+                            </br>
+                            <a href="10th.html" style="text-decoration:none; color:white" class="button">10th Class</a>
+                            <a href="10th.html" style="text-decoration:none; color:white" class="button">12th class</a>
+                            <a href="10th.html" style="text-decoration:none; color:white" class="button">1st YEAR</a>
+                            <a href="10th.html" style="text-decoration:none; color:white" class="button">2nd YEAR</a>
+                            <a href="10th.html" style="text-decoration:none; color:white" class="button">3rd YEAR</a>
+                            <a href="10th.html" style="text-decoration:none; color:white" class="button">4th YEAR</a>
+                            <a href="attendence.html" style="text-decoration:none; color:white" class="button">ATTANDANCE</a>
+                            <a href="notice.html" style="text-decoration:none; color:white" class="button">NOTICE</a>
+                            <a href="award.html" style="text-decoration:none; color:white" class="button"> AWARDs</a>
+
+
+
+                        </div>
+
+                    </div>
+
+                    <div align="left " style="width:200px;float:right;">
+                        <div style="height:320px;margin-left:10px;margin-right:0px;margin-top:-17px;">
+                            <div id="tabbertab" align="left">
+                                <h2 style="text-align:left;">Latest News</h2>
+                                <div style="position: relative;height:270px;width:190px;margin-top:-15px;">
+                                    <div id="news">
+                                        <div class="latest">
+                                            <span class="lnews">Today is IP project evaluation</span>
+                                        </div>
+                                        <div class="latest">
+                                            <span class="lnews">Final semester exam latest info </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="background-color:rgb(192,192,192);"><a href="#">view all</a></div>
+                            <div>
+                                <h2 style="text-align:left;">General Info</h2>
+                                <div>
+                                    <ul class="rightbar">
+                                        <li>IIIT Kota at Media</li>
+                                        <li>Intranet</li>
+                                        <li>Alumni Association</li>
+                                        <li>Anti-Ragging</li>
+                                        <li>Donation Portal</li>
+                                        <li>Fee Structure</li>
+                                        <li>Dispensary</li>
+                                        <li>Computer Center Info</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="display:table-row;width: 100%;;margin-left: auto; margin-right: auto;">
+            <div align="center" style="display:table-cell;vertical-align:middle;">
+                <div style="width: 100%;margin-left: auto; margin-right: auto;">
+                    <div align=" center " style="background-color:rgba(67, 102, 131, 0.7);min-width:975px; margin:0 auto;height:75px;">
+                        <div align=" center " style="width:975px; margin:0 auto;height:75px;">
+                            <div style="background-color:pink;float: left;height:75px;width:150px;"><img style="width:150px;height: 75px;" src="logo.jpg"></div>
+                            <div align="center" style=" width:575px; margin:0 auto;height:25px;">
+                                <div style=" border-top: 1px rgb(67, 102, 131);">
+                                    <u style="list-style-type: none;font-size: 0;margin:0 auto;">
+                                        <li class="menulast">Developers</li>
+                                        <li class="menulast">Disclaimer</li>                              
+                                     </u>
+                                </div>
+                            </div>
+                            <div align=" center " style="width:575px; margin:0 auto;height:50px;">
+                                <h3 style="text-align:center;margin:0px;">Indian Institute of Information Technology Kota </h3>
+                                <h3 style="text-align:center;margin:0px;font-size:15px;"> Phone no.:3425455 &nbsp; &nbsp; &nbsp; &nbsp;Fax:5565464;&nbsp; &nbsp; &nbsp; &nbsp;Email:office@iiitkota.ac.in</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
